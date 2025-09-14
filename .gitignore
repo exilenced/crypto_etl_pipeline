@@ -1,0 +1,22 @@
+.env
+.env.local
+
+airflow.cfg
+logs/
+plugins/
+
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/profiles.yml # Этот файл мы создадим через переменные
