@@ -12,10 +12,17 @@
 
 ## 📁 Project Structure
 crypto_etl_pipeline/
+
 ├── dags/ # Airflow DAGs
+
 ├── dbt/ # dbt project (models, sources, etc.)
+
 ├── scripts/ # Вспомогательные скрипты
+
 ├── config/ # Конфигурационные файлы
+
 ├── docker-compose.yml # Docker Compose для инфраструктуры
+
 ├── .env.example # Пример файла с переменными окружения
+
 └── README.md
